@@ -1,0 +1,86 @@
+body {
+  font-family: "Helvetica", serif;
+  margin: 0px;
+}
+
+.headers {
+  font-family: "Inconsolata", monospace;
+  font-size: 35px;
+  padding: 5px;
+  background-color: powderblue;
+  line-height: normal;
+}
+
+#main-doc {
+  text-align: justify;
+  margin-left: 292px;
+  line-height: 1.5;
+}
+
+p {
+  padding-left: 7px;
+}
+
+code {
+  display: inline-block;
+  background-color: bisque;
+  text-align: left;
+  white-space: pre;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+#navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0px;
+  top: 0px;
+  width: auto;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: solid;
+  border-color: powderblue;
+  border-width: 2px;
+  border-top-width: 0px;
+}
+
+.nav-link {
+  padding: 10px 15px 10px 15px;
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  border: solid;
+  border-width: 2px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  border-color: powderblue;
+  font-family: "VT323", monospace;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+#nav-head {
+  font-family: "VT323", monospace;
+  font-size: 40px;
+}
+
+#Global_variables {
+  margin-top: 20px;
+}
+
+#Data_types {
+  margin-top: 20px;
+}
+
+@media all and (max-width: 700px) {
+  #navbar {
+    height: 250px;
+    width: 100%;
+  }
+  #main-doc {
+    margin: 250px 0px 0px 0px;
+  }
+}
